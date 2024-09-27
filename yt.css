@@ -1,0 +1,135 @@
+body{
+    background-image: url(youtube-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    justify-content: center;
+    margin: auto;
+    overflow: auto;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font: bold;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(41, 28, 28);
+    border: 10px;
+    border-radius: 10px;
+    fill-opacity: inherit;
+    color: aliceblue;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+
+
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    background-image: url(youtube-logo-png-46020.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    border: 10px;
+    border-radius: 10px;
+
+}
+#box{
+    display: flex;
+    margin: auto;
+    height: 60px;
+    width:250px;
+    border: 1px;
+    border-radius: 30px;
+    background-color: rgb(241, 236, 235);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 2px;
+
+}
+#butt{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px 5px ;
+    border: 4px 4px 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: rgb(127, 129, 131);
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px;
+    
+
+    
+    
+}
+fieldset{
+    background-color: whitesmoke;
+    padding: 100px;
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 200px;
+    box-shadow: 15px 15px 20px;
+    
+}
+#butt:hover{
+    background-color: rgb(226, 14, 14);
+
+
+}
+
+#mar{
+    background-color: rgb(231, 220, 220);
+    font-weight: bold;
+    font-size: 30px;
+    font-family:monospace;
+    height: auto;
+    margin: auto;
+    border: 10px;
+    border-radius: 10px;
+    max-height: fit-content;
+    width: 420px;
+    display: flex;
+    color: rgb(28, 4, 4);
+    position: relative;
+    left: 26px;
+    box-shadow: 2px 2px 1px;
+
+
+
+}
+#quee{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#messageBox {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
